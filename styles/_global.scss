@@ -1,0 +1,61 @@
+* {
+  font-family: "Gelasio", serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+body {
+  overflow-x: hidden;
+}
+.uptitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1b75bb;
+  opacity: 0.8;
+}
+.title1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 120%;
+  color: #081f32;
+}
+.secondary-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  color: #081f32;
+  opacity: 0.6;
+}
+.btn {
+  padding: 15px 30px;
+}
+.title5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #081f32;
+}
+.title4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #081f32;
+}
+
+form {
+  .input-box {
+    border: none !important;
+    outline: none !important;
+  }
+}

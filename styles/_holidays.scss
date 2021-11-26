@@ -1,0 +1,23 @@
+iframe {
+  border-radius: 10px;
+}
+.backImg {
+  position: absolute;
+  width: 70%;
+  top: -60px;
+  right: -50px;
+  z-index: -1;
+}
+.title2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140%;
+  color: #081f32;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 991px) {
+  .toleft {
+    transform: translateX(-60px);
+  }
+}

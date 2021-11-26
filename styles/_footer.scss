@@ -1,0 +1,25 @@
+footer {
+  a {
+    display: block;
+    margin: 10px 0;
+  }
+  .secondary-p {
+    margin-top: -80px;
+  }
+}
+.footer-logo {
+  transform: translateY(-50px) translateX(-30px);
+}
+@media screen and (max-width: 576px) {
+  footer {
+    .row {
+      text-align: center;
+    }
+    .d-flex {
+      margin: 0 auto;
+    }
+    form {
+      text-align: left;
+    }
+  }
+}
